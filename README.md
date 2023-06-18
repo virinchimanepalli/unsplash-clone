@@ -1,38 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Unsplash Image Gallery
+
+This project is a React-based web application that displays an image gallery using the Unsplash API.
+
+## Features
+
+- Fetch and display images from the Unsplash API
+- Search functionality to find specific images
+- Infinite scroll functionality for loading more images
+- Responsive design
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. Clone the repo
+
+```
+git clone https://github.com/your_username_/UnsplashImageGallery.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install NPM packages
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Start the local development server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Unsplash](https://unsplash.com/developers) for their awesome API.
